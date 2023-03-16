@@ -1,31 +1,49 @@
-
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: #f7f7f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
+  font-size: 48px;
+  color: #333;
   text-align: center;
+  text-shadow: 2px 2px #fff;
 }
 
 label {
+  font-size: 24px;
+  color: #333;
   display: block;
   margin-bottom: 10px;
 }
 
-input {
-  display: block;
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
+input[type="text"] {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 button {
-  padding: 5px;
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
 }
 
 p {
-  margin-top: 10px;
-  font-size: 18px;
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #fff;
 }
